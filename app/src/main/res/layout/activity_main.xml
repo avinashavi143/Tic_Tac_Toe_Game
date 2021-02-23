@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/gameName"
+        android:layout_width="330dp"
+        android:layout_height="149dp"
+        android:fontFamily="cursive"
+        android:padding="5dp"
+        android:shadowColor="#2012EA"
+        android:shadowDx="0.1"
+        android:shadowDy="0.1"
+        android:shadowRadius="8"
+        android:text="@string/tictoe"
+        android:textAlignment="center"
+        android:textColor="#A25EAE"
+        android:textSize="100sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <Button
+        android:id="@+id/singlePlayer"
+        android:layout_width="289dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#2E2630"
+        android:fontFamily="cursive"
+        android:text="@string/single"
+        android:textColor="#0BD3ED"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/doublePlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gameName"
+        app:layout_constraintVertical_bias="0.761"
+        app:strokeColor="#18D612" />
+
+    <Button
+        android:id="@+id/doublePlayer"
+        android:layout_width="289dp"
+        android:layout_height="82dp"
+        android:backgroundTint="#2E2630"
+        android:textColor="#0BD3ED"
+        android:layout_marginBottom="244dp"
+        android:fontFamily="cursive"
+        android:text="@string/multi"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="276dp"
+        android:layout_height="37dp"
+        android:text="@string/footer"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/doublePlayer" />
+</androidx.constraintlayout.widget.ConstraintLayout>

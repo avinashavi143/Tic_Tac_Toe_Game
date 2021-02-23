@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="tictoe">Tic Toe</string>
+    <string name="single">Single Player</string>
+    <string name="multi">Multi Players</string>
+    <string name="footer">/@App by Anusha_M</string>
+    <string name="grid">grid</string>
+    <string name="playerStatus">Player Status</string>
+    <string name="img11">img11</string>
+    <string name="img12">img12</string>
+    <string name="img13">img13</string>
+    <string name="img21">img21</string>
+    <string name="img22">img22</string>
+    <string name="img23">img23</string>
+    <string name="img31">img31</string>
+    <string name="img32">img32</string>
+    <string name="img33">img33</string>
+    <string name="play_again">Play Again</string>
+    <string name="play_result">Player Result</string>
+</resources>
